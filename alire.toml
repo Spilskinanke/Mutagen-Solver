@@ -1,0 +1,9 @@
+name = "mutagen_solver"
+description = "Shiny new project"
+version = "0.1.0-dev"
+
+authors = ["Clark Hoffman"]
+maintainers = ["Clark Hoffman <cch952@usask.ca>"]
+maintainers-logins = ["Spilskinanke"]
+
+executables = ["mutagen_solver"]

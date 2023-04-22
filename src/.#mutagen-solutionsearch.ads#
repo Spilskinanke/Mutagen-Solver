@@ -1,0 +1,9 @@
+generic
+   type State is private;
+   with function act(s : State; action : Positive) return State;
+   with function calcHeuristic (s : State) return Heuristic;
+package Base.SolutionSearch is
+
+   function search(initial : State) return State;
+   
+end Base.SolutionSearch;
